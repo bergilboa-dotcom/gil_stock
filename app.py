@@ -9,7 +9,7 @@ st.set_page_config(layout="wide", page_title="Gilboa Fragile Alert")
 st.title("Gilboa Fragile Alert 📊")
 
 tickers = ["NVDA", "INTC", "MU", "SNDK", "DELL", "HPE", "AVGO", 
-           "MRVL", "MDB", "IBM", "ORCL", "META", 
+           "MRVL","NVTS", "MDB", "IBM", "ORCL", "META", 
            "MSFT", "GOOGL", "QBTS"]
 
 @st.cache_data(ttl=60)
